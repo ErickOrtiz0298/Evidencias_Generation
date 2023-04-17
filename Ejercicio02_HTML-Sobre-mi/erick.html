@@ -4,13 +4,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ejercicio02</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <section>
+        <main>
             <h2>1-Una foto que te guste mucho </h2>
             <p>Tenia una perrita doberman pero ya se murio.</p>
             <img src="./img/doberman_hembra.png"/>
-        </section>
+        </main>
         <section>
             <h2>2-Una seccion con una breve biografia tuya </h2>
             <p>Me llamo Erick Iván Ortiz Gasca, actualmente tengo 25 años comencé mi carrera profesional como ingeniero mecatronico sin embargo me encuentro ejerciendo como desarrollador back end. He realizado el desarrollo de un Bot programado en PHP para la UADY como parte de mis practicas profesionales. Actualmente mi interes está en las tecnologias Java, principalmente el framework de Spring.</p>
@@ -107,6 +108,48 @@
             </ol>
         </section>
 
+        
+
+        <section>
+            <h1>Ejemplo de la propiedad colspan</h1>
+            <table>
+                <tr>
+                    <th>Mes</th>
+                    <th>Gastos</th>
+                </tr>
+                <tr>
+                    <td>Enero</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Gasto Mensual: $1800</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>Ejemplo de la propiedad rowspan</h1>
+            <table>
+                <tr>
+                  <th>Mes</th>
+                  <th>Gastos</th>
+                  <th>Ahorros para dias festivos!</th>
+                </tr>
+                <tr>
+                  <td>Enero</td>
+                  <td>$1000</td>
+                  <td rowspan="2">$500</td>
+                </tr>
+                <tr>
+                  <td>Febrero</td>
+                  <td>$800</td>
+                </tr>
+              </table>
+        </section>
     </body>
     
 </html>
